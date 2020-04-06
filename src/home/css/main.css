@@ -1,7 +1,18 @@
+*
+{
+    font-family: "微软雅黑";
+    margin: 0;
+    padding:0;
+    border:none;
+}
 a
 {
     text-decoration: none;
     color:ghostwhite;
+}
+ul
+{
+    list-style: none;
 }
 header
 {
@@ -15,18 +26,24 @@ header
     width: 100%;
     /* border:1px solid red; */
 }
-.Blood div
+.Blood div 
 {
-    width: 9.6%;
+    width: 10%;
     display: inline-block;
+    vertical-align: bottom;
+}
+aside
+{
+    width: 10%;
+    display: inline-block;
+    background-color: greenyellow;
 }
 article
 {
     width: 80%;
-    border:1px solid black;
     display: inline-block;
 }
-aside
+.banner
 {
     width: 100%;
     height: 400px;
@@ -36,5 +53,29 @@ footer
 {
     width: 100%;
     height: 200px;
+    background-color: hotpink;
     /* border: 1px solid navy; */
+}
+/* 鼠标点击手势 */
+.gesture
+{
+    cursor:pointer
+}
+
+
+
+
+/* 测试色 */
+.qing
+{
+    background:#00ffff;
+}
+.ffe200
+{
+    background-color: #ffe200;
+
+}
+.f8c000
+{
+    background-color: #f8c000;
 }
